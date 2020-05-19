@@ -1,0 +1,12 @@
+default:
+    host:       "replace_with_cluster_name.mongodb.net"
+    username:   "user_name"
+    password:   "password"
+    database:   "stock_analyzer"
+    collection: "user_base"
+production:
+    host:       "replace_with_cluster_name.mongodb.net"
+    username:   "user_name"
+    password:   "password"
+    database:   "stock_analyzer"
+    collection: "user_base"
