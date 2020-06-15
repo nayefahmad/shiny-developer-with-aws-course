@@ -14,8 +14,9 @@ library(shinyWidgets)
 library(plotly)
 library(tidyquant)
 library(tidyverse)
+library(here)
 
-source(file = "00_scripts/stock_analysis_functions.R")
+source(here::here("analysis", "stock_analysis_functions.R"))
 
 stock_list_tbl <- get_stock_list("SP500")
 
